@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700&display=swap');
+
 *{
     box-sizing: border-box;
     padding: 0;
@@ -27,7 +29,7 @@ button:hover{
 }
 
 body{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
 }
 header,main,footer{
     margin: 0 auto;
@@ -37,7 +39,7 @@ header{
     padding-bottom: 120px;
 
 }
-.header-container{
+.header-container, .footer-container{
     width: 70%;
     margin: 0 auto;
 }
@@ -84,8 +86,61 @@ header nav a{
     width: 100%;
     background-color: #6d747d;
 }
+main h2{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    font-size: 32px;
+    color: #1F2937;
+    font-weight: 900;
+}
+.information{
+    padding-top: 20px;
+    padding-bottom: 120px;
+    width: 70%;
+    margin: 0 auto;
+}
+.cards{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+.card{
+    width: 165px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.card-image-container{
+    width: 100%;
+    border: solid #3882F6 4px;
+    border-radius: 22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card-image-container::after{
+    content: "";
+    display: block;
+    padding-bottom: 100%;
+}
+.image-container img{
+    width: 70%;
+    height: auto;
+}
+.card p{
+    text-align: center;
+    font-size: 18px;
+    color: #6d747d;
+}
 .testimonial{
-    background-color: #E5E7EB;
+    
+}
+.testimonial-container{
+    background-color: #E5E7EB; 
 }
 footer{
     background-color: #1F2937;
