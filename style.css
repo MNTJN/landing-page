@@ -181,3 +181,9 @@ main h2{
 footer{
     background-color: #1F2937;
 }
+.footer-container{
+    padding: 50px;
+    text-align: center;
+    color: #f9faf8;
+    font-size: 18px;
+}
